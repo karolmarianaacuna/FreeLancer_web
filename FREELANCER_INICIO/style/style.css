@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* paleta de colores */
+:root {
+  --primary: ffffff;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+.header h1 {
+  color: #042940;
+}
+.header span {
+  color: #9fc131;
+  font-size: 20px;
+}
+.navbar {
+  background-color: #042940;
+  padding: 15px;
+}
+.navbar__Navegacion {
+  display: flex;
+  justify-content: center;
+}
+.navbar a {
+  color: azure;
+  text-decoration: none;
+  margin-left: 100px;
+  font-size: 18px;
+}
+.navbar a:hover {
+  color: #9fc131;
+  transition: 0.5s;
+}
+
+.section__banner {
+  background-image: url(/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+}
+
+.banner__contenido {
+  position: absolute;
+  width: 100%;
+  background-color: #07142982;
+  height: 500px;
+  text-align: center;
+  align-content: center;
+}
+.banner__contenido h2 {
+  font-size: 3em;
+  color: aliceblue;
+}
+
+.banner__ubicacion {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-bottom: 30px;
+  color: rgb(251, 249, 249);
+  font-size: 1.2em;
+}
+.banner__ubicacion p {
+  margin: 10px;
+}
+
+.banner__boton {
+  background-color: #042940;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 15px;
+  color: #9fc131;
+  text-decoration: none;
+}
+
+.banner__boton:hover {
+  background-color: #9fc131;
+  color: #042940;
+  transition: 0.5s;
+}
+
+main {
+  background-color: #042940;
+  padding: 50px;
+}
+.titulo__main {
+  text-align: center;
+  padding: 25px;
+  color: #eceee9;
+  font-size: 35px;
+}
+.main__principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #eceee9;
+  padding: 15px;
+  border-radius: 15px;
+  height: 350px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__principal section svg {
+  background-color: #9fc131;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 15px;
+  padding: 15px;
+}
+.section__Formulario {
+  background-image: linear-gradient(
+    to top,
+    #b3c2cb,
+    #a7cfd5,
+    #a2dcd0,
+    #b3e5bd,
+    #d9e9a6
+  );
+}
+.formulario {
+  margin: 50px;
+  background-color: #042940;
+  height: 700px;
+  width: 600px;
+  color: #eceee9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-size: 18px;
+}
+.formulario h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 50px;
+}
+.footer {
+  background-color: #9fc131;
+  height: 100px;
+}
+.footer p {
+  text-align: center;
+  color: #042940;
+  padding: 35px;
+}
+.div__boton {
+  display: flex;
+  justify-content: center;
+}
+.boton_formulario {
+  padding: 15px;
+  margin: 15px;
+  width: 150px;
+}
+
+.boton_formulario:hover {
+  background-color: #9fc131;
+  color: #042940;
+  transition: 0.5s;
+}
+
+med
