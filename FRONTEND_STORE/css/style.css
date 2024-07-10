@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  
 }
 
 :root {
@@ -20,6 +21,8 @@
 body {
   background-color: var(--segundo);
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 a {
   text-decoration: none;
@@ -90,8 +93,11 @@ a {
   font-weight: 800;
 }
 .producto__nombre {
+  font-size: 32px;
+  color: #ffffff;
 }
 .producto__precio {
+  font-size: 25px;
 }
 
 /**footer*/
@@ -109,4 +115,126 @@ a {
   line-height: 1.5;
   background-color: #555bd9;
   font-weight: bold;
+}
+
+/*graficos*/
+.grafico {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grafico--camisa {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  background-image: url(../img/grafico1.jpg);
+}
+.grafico--node {
+  grid-row: 5/6;
+  grid-column: 2/4;
+  background-image: url(../img/grafico2.jpg);
+}
+
+/* nosotros estilos */
+
+.nosotros {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 100;
+  gap: 30px;
+}
+
+
+.nosotros__contenido {
+  grid-column: 2/3;
+  
+}
+
+.nosotros__contenido p{
+  text-align: start;
+}
+.nosotros__img {
+  grid-column: 3/4;
+}
+
+/* seccion de bloques */
+
+.titulo__compras{
+  margin: 25px;
+}
+.bloque__titulo{
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.img__bloque{
+  border-radius: 32px;
+  
+  
+}
+
+.bloques{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  gap: 64px;
+  margin: 50px ;
+}
+
+.bloques p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: start;
+}
+
+
+.camisa{
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-items: center;
+  align-items: center;
+  
+  
+}
+
+.camisa__imagen{
+  grid-column: 2/3;
+}
+.camisa__contenido{
+  grid-column: 3/4;
+  
+}
+.camisa__contenido p{
+  text-align: start;
+  margin: 15px;
+  
+}
+.formulario__sumit{
+
+  background-color: #d2f25c;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+  transition: .3s;
+  margin: 15px;
+  border-radius: 15px;
+}
+.formulario__sumit:hover{
+  background-color: #f25e3d;
+  color: white;
+
+}
+.formulario__tallas, .formulario__cant{
+  background-color: #e8f1f9;
+  border: #555bd9 2px solid;
+  font-size: 15px;
+  padding: 10px;
+  
+
+  
+  
 }
